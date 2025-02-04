@@ -1,7 +1,6 @@
 import { useState, createContext } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { RiCloseLine } from "react-icons/ri";
-import DeleteIcon from '../images/icon-close.svg?react'; 
+import MenuIcon from '../images/icon-menu.svg?react'; 
+import CloseIcon from '../images/icon-close.svg?react'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,15 +14,15 @@ const Navbar = () => {
       <div className="container flex flex-col md:flex-row justify-between">
         <div className="flex justify-between">
           <a href="#">
-            <DeleteIcon />
+            SNEAKERS
           </a>
 
           <div className="md:hidden">
             <button onClick={toggleMenu}>
               {isOpen ? (
-                <RiCloseLine className="h-6 w-6 text-white" />
+                <CloseIcon className="h-6 w-6 text-white" />
               ) : (
-                <GiHamburgerMenu className="h-6 w-6 text-white" />
+                <MenuIcon className="h-6 w-6 text-white" />
               )}
             </button>
           </div>
