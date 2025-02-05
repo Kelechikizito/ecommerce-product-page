@@ -30,27 +30,27 @@ const Navbar = () => {
 
           <div className="flex justify-center items-center">
             <ul className={`md:flex md:gap-10 ${isOpen ? "block" : "hidden"}`}>
-              <li className="">
+              <li className="cursor-pointer">
                 <a href="#features" className="">
                   Collections
                 </a>
               </li>
-              <li className="">
+              <li className="cursor-pointer">
                 <a href="#team" className="">
                   Men
                 </a>
               </li>
-              <li className="">
+              <li className="cursor-pointer">
                 <a href="#blog" className="">
                   Women
                 </a>
               </li>
-              <li className="">
+              <li className="cursor-pointer">
                 <a href="#contact" className="">
                   About
                 </a>
               </li>
-              <li className="">
+              <li className="cursor-pointer">
                 <a href="#getTemplate" className="">
                   Contact
                 </a>
