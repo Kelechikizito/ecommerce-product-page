@@ -30,27 +30,27 @@ const Navbar = () => {
 
           <div className="flex justify-center items-center">
             <ul className={`md:flex md:gap-10 ${isOpen ? "block" : "hidden"}`}>
-              <li className="cursor-pointer">
+              <li className="relative flex cursor-pointer flex-col items-center font-sans font-normal leading-[26px] text-[#69707d] hover:text-[#1d2026] after:absolute after:-bottom-[46px] after:h-1 after:w-full after:bg-[#ff7e1b] after:opacity-0 after:transition-opacity after:duration-200 after:ease-out after:content-[''] hover:after:opacity-100">
                 <a href="#features" className="">
                   Collections
                 </a>
               </li>
-              <li className="cursor-pointer">
+              <li className="relative flex cursor-pointer flex-col items-center font-sans font-normal leading-[26px] text-[#69707d] hover:text-[#1d2026] after:absolute after:-bottom-[46px] after:h-1 after:w-full after:bg-[#ff7e1b] after:opacity-0 after:transition-opacity after:duration-200 after:ease-out after:content-[''] hover:after:opacity-100">
                 <a href="#team" className="">
                   Men
                 </a>
               </li>
-              <li className="cursor-pointer">
+              <li className="relative flex cursor-pointer flex-col items-center font-sans font-normal leading-[26px] text-[#69707d] hover:text-[#1d2026] after:absolute after:-bottom-[46px] after:h-1 after:w-full after:bg-[#ff7e1b] after:opacity-0 after:transition-opacity after:duration-200 after:ease-out after:content-[''] hover:after:opacity-100">
                 <a href="#blog" className="">
                   Women
                 </a>
               </li>
-              <li className="cursor-pointer">
+              <li className="relative flex cursor-pointer flex-col items-center font-sans font-normal leading-[26px] text-[#69707d] hover:text-[#1d2026] after:absolute after:-bottom-[46px] after:h-1 after:w-full after:bg-[#ff7e1b] after:opacity-0 after:transition-opacity after:duration-200 after:ease-out after:content-[''] hover:after:opacity-100">
                 <a href="#contact" className="">
                   About
                 </a>
               </li>
-              <li className="cursor-pointer">
+              <li className="relative flex cursor-pointer flex-col items-center font-sans font-normal leading-[26px] text-[#69707d] hover:text-[#1d2026] after:absolute after:-bottom-[46px] after:h-1 after:w-full after:bg-[#ff7e1b] after:opacity-0 after:transition-opacity after:duration-200 after:ease-out after:content-[''] hover:after:opacity-100">
                 <a href="#getTemplate" className="">
                   Contact
                 </a>
