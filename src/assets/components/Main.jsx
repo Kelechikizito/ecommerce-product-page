@@ -1,4 +1,5 @@
 import ProductImages from "./ProductImages"
+import MainText from "./MainText"
 
 const Main = () => {
   return (
@@ -7,7 +8,9 @@ const Main = () => {
             <ProductImages />
         </div>
 
-        <div></div>
+        <div className="flex flex-col justify-center">
+            <MainText />
+        </div>
     </div>
   )
 }
