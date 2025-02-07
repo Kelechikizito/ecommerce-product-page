@@ -37,7 +37,7 @@ const Navbar = () => {
                     key={item}
                     className="relative flex cursor-pointer flex-col items-center font-sans font-normal leading-[26px] text-[#69707d] hover:text-[#1d2026] after:absolute after:-bottom-[46px] after:h-1 after:w-full after:bg-[#ff7e1b] after:opacity-0 after:transition-opacity after:duration-200 after:ease-out after:content-[''] hover:after:opacity-100"
                   >
-                    <a href="#">{item}</a>
+                    <a href={item}>{item}</a>
                   </li>
                 )
               )}
@@ -86,7 +86,7 @@ const Navbar = () => {
                     key={item}
                     className="text-[#1d2026] font-bold hover:text-[#ff7e1b] transition-colors"
                   >
-                    <a href="#" className="block py-2">
+                    <a href={item} className="block py-2">
                       {item}
                     </a>
                   </li>
