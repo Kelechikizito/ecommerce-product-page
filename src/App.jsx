@@ -6,7 +6,7 @@ function App() {
 
   return (
     <CartProvider>
-      <div>
+      <div className="px-24 pb-24">
         <Navbar />
         <Main />
       </div>

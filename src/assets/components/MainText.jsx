@@ -27,15 +27,15 @@ const MainText = () => {
         <div className="flex gap-4">
             <div className="w-[35%]">
                 <p className="flex justify-between h-full p-4 font-semibold rounded-xl bg-[#f6f8fd]">
-                    <span className="flex justify-center items-center"><MinusIcon /></span>
+                    <span className="flex justify-center items-center cursor-pointer"><MinusIcon /></span>
                         0
-                    <span className="flex justify-center items-center"><PlusIcon /></span>
+                    <span className="flex justify-center items-center cursor-pointer"><PlusIcon /></span>
                 </p>
             </div>
 
             <div className="w-[65%] flex justify-center items-center">
                 <button className="w-[100%] h-full flex justify-center items-center gap-4 font-sans leading-[26px] text-white bg-[#ff7e1b] font-semibold rounded-xl">
-                    <CartIcon className='text-white'/> 
+                    <CartIcon className='stroke-white fill-current  text-white'/> 
                     Add to cart
                 </button>
             </div>

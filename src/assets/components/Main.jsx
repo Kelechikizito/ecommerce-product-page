@@ -3,7 +3,7 @@ import MainText from "./MainText"
 
 const Main = () => {
   return (
-    <div className="pt-20 grid grid-cols-2">
+    <div className="pt-20 grid grid-cols-2 px-8 gap-16">
         <div>
             <ProductImages />
         </div>

@@ -13,14 +13,14 @@ const ProductImages = () => {
   return (
     <div className='flex flex-col gap-10'>
         <div>
-            <img src={ProductOne} alt='' className='size-[28rem]'/>
+            <img src={ProductOne} alt='' className='rounded-2xl'/>
         </div>
 
-        <div className='flex justify-between'>
-            <img src={ProductOneThumbnail} alt='' className='size-[6rem]'/>
-            <img src={ProductTwoThumbnail} alt='' className='size-[6rem]'/>
-            <img src={ProductThreeThumbnail} alt='' className='size-[6rem]'/>
-            <img src={ProductFourThumbnail} alt='' className='size-[6rem]'/>
+        <div className='flex justify-between gap-[5%]'>
+            <img src={ProductOneThumbnail} alt='' className='size-[20%] rounded-lg cursor-pointer hover:opacity-75'/>
+            <img src={ProductTwoThumbnail} alt='' className='size-[20%] rounded-lg cursor-pointer hover:opacity-75'/>
+            <img src={ProductThreeThumbnail} alt='' className='size-[20%] rounded-lg cursor-pointer hover:opacity-75'/>
+            <img src={ProductFourThumbnail} alt='' className='size-[20%] rounded-lg cursor-pointer hover:opacity-75'/>
         </div>
     </div>
   )
